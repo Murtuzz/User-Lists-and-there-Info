@@ -8,6 +8,7 @@
   border: 0;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 0.6em 0.4em;
+  width: 50%;
 }
 
 .search input:focus{

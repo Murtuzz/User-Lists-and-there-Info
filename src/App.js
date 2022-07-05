@@ -72,7 +72,7 @@ function App() {
       <div className="App">
         <h1>Users</h1>
         <div className="search">
-          <input type="text" value={search} placeholder="Search" onChange={handleChange}/>
+          <input type="text" value={search} placeholder="Search by user name and email..." onChange={handleChange}/>
         </div>
         <div className="users">
           { searchResult.map( (user) => <User key={user.id} user = {user}/>) }
